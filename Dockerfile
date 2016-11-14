@@ -1,4 +1,4 @@
-FROM quay.io/pires/docker-elasticsearch-kubernetes:2.4.1
+FROM kibana:4.6.1
 
 RUN /elasticsearch/bin/plugin install royrusso/elasticsearch-HQ/v2.0.3
 RUN /elasticsearch/bin/plugin  install license
